@@ -5,23 +5,23 @@ public class CampbellClass{
     }
 
     public static String convertString(int value){
-        return String.valueof(value);
+        return Integer.toString(value);
     }
     public static String convertString(double value){
-        return String.valueof(word);
+        return Double.toString(value);
     }
     public static String convertString(char value){
-        return String.valueof(word);
+        return Character.toString(value);
     }
     public static String convertString(boolean value){
-        return String.valueof(word);
+        return Boolean.toString(value);
     }
 
-    public static int convertMetresToCenti(int metre){
+    public static int convertMetersToCenti(int metre){
         return metre*100;
     }
-    public static double convertMetresToCenti(double metre){
-        return metre*100;
+    public static double convertMetersToCenti(double metre){
+        return metre*100.0;
 }
 
     public static String removeNonAlpha(String word){
